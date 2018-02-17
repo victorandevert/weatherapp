@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77941a66-5f26-4bcc-aef5-c38ff0f2ab09" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Location.js" afterPath="$PROJECT_DIR$/src/components/Location.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/WeatherLocation.js" afterPath="$PROJECT_DIR$/src/components/WeatherLocation.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/WeatherData.js" afterPath="$PROJECT_DIR$/src/components/WeatherData.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/WeatherExtraInfo.js" afterPath="$PROJECT_DIR$/src/components/WeatherExtraInfo.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,17 +51,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherExtraInfo.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WeatherExtraInfo.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/WeatherExtraInfo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="153">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Location.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Location.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Location.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -74,8 +74,8 @@
       <file leaf-file-name="WeatherData.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/WeatherData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -93,10 +93,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/WeatherTemperature.js" />
-        <option value="$PROJECT_DIR$/src/components/WeatherExtraInfo.js" />
-        <option value="$PROJECT_DIR$/src/components/WeatherData.js" />
         <option value="$PROJECT_DIR$/src/components/WeatherLocation.js" />
         <option value="$PROJECT_DIR$/src/components/Location.js" />
+        <option value="$PROJECT_DIR$/src/components/WeatherData.js" />
+        <option value="$PROJECT_DIR$/src/components/WeatherExtraInfo.js" />
       </list>
     </option>
   </component>
@@ -193,12 +193,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518888333241</updated>
-      <workItem from="1518888334928" duration="3370000" />
+      <workItem from="1518888334928" duration="4284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3370000" />
+    <option name="totallyTimeSpent" value="4284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1509" height="1021" extended-state="0" />
@@ -261,24 +261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WeatherExtraInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WeatherData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/WeatherLocation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -293,6 +275,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WeatherData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WeatherExtraInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>
