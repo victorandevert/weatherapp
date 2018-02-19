@@ -20,4 +20,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# IntelliJ IDEA
 .idea/
+.idea_modules
+out/
+*.iml
+**/.idea
