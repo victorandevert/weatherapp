@@ -1,4 +1,5 @@
 import React from 'react';
+
 import WeatherIcons from 'react-weathericons';
 import { CLOUD,
     CLOUDY,
@@ -34,7 +35,6 @@ const WeatherTemperature = ({temperature, weatherState}) => (
   <div>
       {getWeatherIcon(weatherState)}
       <span>{`${temperature} Cº`}</span>
-  </div>
-);
+  </div>);
 
 export default WeatherTemperature;
