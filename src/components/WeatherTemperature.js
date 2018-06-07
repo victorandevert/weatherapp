@@ -1,10 +1,10 @@
 import React from 'react';
 import WeatherIcons from 'react-weathericons';
 
-const WeatherTemperature = () => (
+const WeatherTemperature = ({temperature, weatherState}) => (
   <div>
       <WeatherIcons name="sleet" size="2x" />
-      <span>12 Cº</span>
+      <span>{`${temperature} Cº`}</span>
   </div>
 );
 
